@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SMA Kebon Dalem</title>
+	<style>
+.Div {
+  border: 10px outset floralwhite;
+  background-color: forestgreen;    
+  text-align: center;
+}
+
+</style>
+</head>
+<body style="background-color: white;">
+	<div class="Div">
+		<h1>Pendaftaran SMA Kebon Dalem Semarang</h1>
+	</div>
+	<br><br><br>
+	<h3>Mohon mengisi formulir pendaftaran tersebut!</h3>
+<form action="contact.php" method="POST">
+	<fieldset>
+		<legend>Formulir Pendaftaran</legend><br><br><br>
+	<table align="left" cellpadding="5" align="center" width="800">
+		<tr>
+			<td><label for="Nama"> Nama : </label></td>
+			<td><input type="text" id="Nama" name="Nama" required></td>
+		</tr>
+		<tr>
+			<td><label for="Username">Username:</label></td>
+			<td><input type="text" id="Username" name="Username" required></td>
+		</tr>
+		<tr>
+			<td> <label for="Email">Email:</label></td>
+			<td><input type="Email" id="Email" name="Email" autocomplete="off"></td>
+		</tr>
+		<tr>
+			<td> <label for="Password">Password:</label></td>
+			<td><input type="password" id="Password" name="Password" required></td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td>
+		</tr>
+		<tr>
+			<td><label><input type="radio" id="laki-laki" name="fav_language" value="laki-laki" required>Laki-laki</label></td>
+			<td><label><input type="radio" id="perempuan" name="fav_language" value="perempuan" required>Perempuan</label></td>
+		</tr>
+		<tr>
+			<td><label for="agama" required>Agama:</label></td>
+       <td><select id="agama" name="agama">
+       <option value="Islam">Islam</option>
+       <option value="Kristen">Kristen</option>
+       <option value="Budha">Budha</option>
+       <option value="Hindu">Hindu</option>
+    </select></td>
+		</tr>
+		<tr>
+			<td><label for="tanggallahir">Tanggal Lahir:</label></td>
+			<td> <input type="date" id="tanggallahir" name="tanggallahir" min="1995-01-01" max="2030-1-1" required></td>
+		</tr>
+		<tr>
+			<td><label for="Telepon">Nomor Handphone:</label></td>
+  		<td><input type="tel" id="Telepon" name="Telepon" placeholder="62+ 123 4567 8910" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required></td>
+		</tr>
+		<tr>
+			<td><label for="Alamat"> Alamat : </label></td>
+			<td><input type="text" id="Alamat" name="Alamat" required></td>
+		</tr>
+		<tr>
+			<td><label for="jurusan" required>Jurusan:</label></td>
+       <td><select id="jurusan" name="jurusan">
+        <option value="ipa">IPA</option>
+        <option value="ips">IPS</option>
+        <option value="bahasa">Bahasa</option></td>
+		</tr>
+		<tr>
+			<td><label for="Nama"> Nama Ayah : </label></td>
+			<td><input type="text" id="Nama" name="Nama" required></td>
+		</tr>
+		<tr>
+			<td><label for="Pekerjaan"> Pekerjaan : </label></td>
+			<td><input type="text" id="Pekerjaan" name="Pekerjaan" required></td>
+		</tr>
+		<tr>
+			<td><label for="Telepon">Nomor Handphone:</label></td>
+  		<td><input type="tel" id="Telepon" name="Telepon" placeholder="62+ 123 4567 8910" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required></td>
+		</tr>
+		<tr>
+			<td><label for="Nama"> Nama Ibu : </label></td>
+			<td><input type="text" id="fNama" name="fNama" required></td>
+		</tr>
+		<tr>
+			<td><label for="Pekerjaan"> Pekerjaan : </label></td>
+			<td><input type="text" id="Pekerjaan" name="Pekerjaan" required></td>
+		</tr>
+		<tr>
+			<td><label for="Telepon">Nomor Handphone :</label></td>
+  		<td><input type="tel" id="Telepon" name="Telepon" placeholder="62+ 123 4567 8910" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required></td>
+		</tr>
+		<tr>
+			<td><label for="KKfile">Silahkan masukkan File KK :</label></td>
+        <td><input type="file" id="KKfile" name="KKfile" required></td>
+		</tr>
+		<tr>
+			<td><label for="Ijazahfile">Silahkan masukkan File Ijazah SMP :</label></td>
+        <td><input type="file" id="Ijazahfile" name="Ijazahfile" required></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="center"><input type="submit" value="Kirim"></td>
+		</tr>
+
+
+		</tr>
+	</table>
+	</fieldset>
+
+</form>
+
+
+
+	
+
+</body>
+</html>
